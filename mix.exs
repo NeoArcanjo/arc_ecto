@@ -21,7 +21,7 @@ defmodule Arc.Ecto.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [extra_applications: [:logger, :waffle, :ecto, :eex]]
+    [extra_applications: [:logger, :ecto, :eex]]
   end
 
   # Specifies which paths to compile per environment.
